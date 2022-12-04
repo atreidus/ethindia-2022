@@ -12,3 +12,9 @@ The NFTs are populated with a default value for "image" and "status" property is
 run_draw.js--select a random winner from lottery holders, and change metadata of winner.The "status" property is changed to "winner" and "image" of NFT is changed to indicated the win.
 
 
+reset_lotteries.js--will reset all lotteries metadata to predraw condition.(the condition initially set by populate_nfts_revise.js)
+
+
+
+
+
