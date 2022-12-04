@@ -1,6 +1,7 @@
 Documentation of NFT-Lottery
 ----------------------------
-
+revise_lottery.sol--used to mint lottery tokens on to blockchain with 
+tokenURI suppied by revise network.
 
 initrevisecollection.js--Initializes a lottery collection and first nft lottery of the collection.(into revise network)s
 
