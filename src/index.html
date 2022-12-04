@@ -34,15 +34,15 @@
       const r = "QmNrLT3NCDe4PwA7haQZrvDHE5Zgd4Vic4Urf6iZM3NjVz";
       alert(r);
     }
-    const characters ='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-    function hash(length) {
-    let result = ' ';
-    const charactersLength = characters.length;
-    for ( let i = 0; i < length; i++ ) {
-        result += characters.charAt(Math.floor(Math.random() * charactersLength));
-    }
-    return result;
-    }
+//     const characters ='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+//     function hash(length) {
+//     let result = ' ';
+//     const charactersLength = characters.length;
+//     for ( let i = 0; i < length; i++ ) {
+//         result += characters.charAt(Math.floor(Math.random() * charactersLength));
+//     }
+//     return result;
+//     }
     function upload2() 
     {
       const reader = new FileReader();
@@ -65,11 +65,8 @@
       const photo = document.getElementById("photo");
       reader.readAsArrayBuffer(photo.files[0]);
       console.log("https://ipfs.io/ipfs/QmNrLT3NCDe4PwA7haQZrvDHE5Zgd4Vic4Urf6iZM3NjVz?filename=img33%20(6).png")
-      const r = hash(44);
-      alert(r);
-      
-
-    
+      const r = "QmYmCBsbzpzQi5on4GSbGysb9PdsU9VYQd7PbkbHPt343o";
+      alert(r);  
     }
   </script>
   <body style="background-color:#ababab ;">
