@@ -1,0 +1,4 @@
+Documentation of NFT-Lottery
+
+
+
