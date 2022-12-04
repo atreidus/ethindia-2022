@@ -32,7 +32,7 @@ async function resetlotto() {
    const nft = await revise.fetchNFT(tkn_revise_id.toString());
    const result = await revise.nft(nft)
                        .setProperty('status', 'Waiting For Draw')
-                       .setImage('https://drive.google.com/file/d/1Z-soFuJ221lShg_uv9VYOhZaIViY1owv/view?usp=share_link')
+                       .setImage('https://t4.ftcdn.net/jpg/00/17/93/35/240_F_17933516_nUPSXqMWquQxlHZW93EX1Kp79QDvB6Rp.jpg')
                        .save();
 
 

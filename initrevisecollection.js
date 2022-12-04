@@ -18,7 +18,7 @@ async function run() {
       const nft = await revise.addNFT(
         {
           image:
-            "https://drive.google.com/file/d/1Z-soFuJ221lShg_uv9VYOhZaIViY1owv/view?usp=share_link",
+            "https://t4.ftcdn.net/jpg/00/17/93/35/240_F_17933516_nUPSXqMWquQxlHZW93EX1Kp79QDvB6Rp.jpg",
           name: "Revise Lottery",
           tokenId: "1",
           description: "Here is your lottery to Revise lottery draw",

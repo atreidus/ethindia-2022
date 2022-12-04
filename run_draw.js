@@ -34,7 +34,7 @@ async function setwinner() {
    const nft = await revise.fetchNFT(tkn_revise_id.toString());
    const result = await revise.nft(nft)
                        .setProperty('status', 'Winner!!!')
-                       .setImage('https://drive.google.com/file/d/13e62Ke4u3bCtjI5LHTloGfqqOOlhuOAK/view?usp=share_link')
+                       .setImage('https://t3.ftcdn.net/jpg/03/76/67/56/240_F_376675663_KfWjTqneCLrmq2pQthRGHFFH4T2rNLzX.jpg')
                        .save();
 
 
